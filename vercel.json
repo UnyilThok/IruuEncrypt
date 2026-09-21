@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/api/register", "destination": "/api/register" },
+    { "source": "/api/:token", "destination": "/api/handler?token=:token" }
+  ]
+}
